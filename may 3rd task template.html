@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      .re {
+         position: relative;
+
+      }
+
+      .ab {
+         position: absolute;
+         color: aliceblue;
+         top: 40%;
+         left: 40%;
+         text-align: center;
+
+
+      }
+
+      .icon {
+         margin-left: 100px;
+         display: inline-block;
+         position: relative;
+         height: 100px;
+         width: 1200px;
+         vertical-align: top;
+
+      }
+
+      .a {
+         width: 300px;
+         height: 100px;
+         display: inline-block;
+
+      }
+
+      .b {
+         width: 300px;
+         height: 100px;
+         display: inline-block;
+         position: absolute;
+         left: 500px;
+
+      }
+
+      .c {
+         width: 300px;
+         height: 100px;
+         display: inline-block;
+         position: absolute;
+         right: 0px;
+      }
+
+      .footer {
+
+         /* display: inline-block; */
+         position: relative;
+         height: 100px;
+         width: 1500px;
+         background-color: red;
+         margin-top: 250px;
+
+
+
+      }
+
+      .i {
+         display: inline-block;
+
+         width: 300;
+         height: 100px;
+         /* display: inline-block; */
+         position: absolute;
+         left: 50px;
+      }
+
+      .d {
+         position: absolute;
+         display: inline-block;
+
+         width: 300px;
+         height: 100px;
+         margin-left: 350px;
+         left: 300px;
+      }
+
+      .e {
+         position: absolute;
+         display: inline-block;
+         width: 300px;
+         height: 100px;
+         right: 0px;
+         padding: 40px;
+      }
+
+      .f {
+         position: relative;
+         display: inline-block;
+         width: 1500px;
+         height: 300px;
+         background-color: rgb(107, 101, 101);
+
+      }
+
+      .g {
+         position: absolute;
+         top: 100px;
+         left: 50px;
+         display: inline-block;
+         padding-left: 20px;
+         width: 400px;
+         height: 100px;
+         vertical-align: top;
+         background-color: white;
+         margin-left: 550px;
+         text-align: start;
+
+
+      }
+
+      .h {
+         position: absolute;
+         top: 100px;
+         left: 650px;
+         display: inline-block;
+         background-color: red;
+         width: 260px;
+         height: 100px;
+         margin-left: 400px;
+
+      }
+
+      #j {
+         position: relative;
+         display: inline-block;
+         color: white;
+         left: 5px;
+      }
+
+      #k {
+         position: relative;
+         display: inline-block;
+         color: white;
+         left: 15px;
+         border-left: 2px solid;
+         padding-left: 10px;
+
+
+
+      }
+
+      #m {
+         position: relative;
+         display: inline-block;
+         color: white;
+         left: 25px;
+         border-left: 2px solid;
+         padding-left: 10px;
+      }
+
+      #n {
+
+         position: relative;
+         display: inline-block;
+         color: white;
+         left: 35px;
+         border-left: 2px solid;
+         padding-left: 10px;
+      }
+
+      .o {
+         
+         display: inline-block;
+        padding-left: 100px;
+         height: 400px;
+         width: 200px;
+         position: absolute;
+         
+      }
+
+      .p {
+         width: 200px;
+         height: 100px;
+         display: inline-block;
+         position: absolute;
+         left:40%;
+        
+
+
+
+      }
+
+      .q {
+         width: 200px;
+         height: 100px;
+         display: inline-block;
+         position: absolute;
+         right: 5px;
+         padding-right: 200px;
+    
+
+      }
+   </style>
+</head>
+
+<body>
+   <div class="re">
+      <img
+         src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg"
+         width="100%">
+      <div class="ab">
+         <h1>SIMPLE CSS TEMPLATE</h1>
+         <h5><I>WELCOME TO OUR RESTAURANT</I></h5>
+         <button style="background-color: brown;">jion with us</button>
+      </div>
+   </div>
+   <h2 style="text-align: center;">SATEMENT OF FAITH</h2>
+   </div>
+   <div class="icon">
+      <div class="a">
+         <img
+            src="data:image/png;base64,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"
+            width="90">
+         <h2>What we belive</h2>
+         <p style=width:300px> our company believe in come timeless god who is the designer of all things. he exists in
+            3 persons god the papa,god the son and god the holy spirit he is entinely caring and totally divine.</p>
+      </div>
+      <div class="b">
+         <img src="https://t4.ftcdn.net/jpg/01/27/15/89/360_F_127158933_cDZA4suMXsx2n0LQ03FzpX50R7fBaUx2.jpg"
+            width="90">
+         <h2>Who we are</h2>
+         <p style="width:300px">our company believe in come timeless god who is the designer of all things. he exists in
+            3 persons god the papa,god the son and god the holy spirit he is entinely caring and totally divine.</p>
+      </div>
+
+      <div class="c">
+         <img
+            src="data:image/jpeg;base64,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"
+            width="90">
+         <h2>How we live</h2>
+         <p style="width: 300px;">our company believe in come timeless god who is the designer of all things. he exists
+            in 3 persons god the papa,god the son and god the holy spirit he is entinely caring and totally divine.</p>
+
+
+      </div>
+   </div>
+
+
+   <div class="footer">
+      <div class="i" style="color: aliceblue;">
+         <h4> monday 10am friday</h4>
+         <h2>welcome to our restaurant</h2>
+
+      </div>
+      <div class="d" style="color: aliceblue;">
+         <h4>mefhil restaurant</h4>
+         <h4> dilshugnagar</h4>
+
+      </div>
+      <div class="e" style="color: aliceblue;">
+         <button> read more</button>
+      </div>
+
+   </div>
+   <div class="f">
+      <div class="g">
+         <h4>
+            welcome to our restaurant
+         </h4>
+         <h5>
+            monday, 10am, friday
+            mefhil restaurant
+            hyderabad
+         </h5>
+
+      </div>
+      <div class="h">
+         <span id="j">
+            <h2>
+               200
+            </h2>
+            <p>days</p>
+         </span>
+         <span id="k">
+            <h2>16</h2>
+            <p>hours</p>
+         </span>
+         <span id="m">
+
+            <h2>42</h2>
+            <p>minutes</p>
+         </span>
+         <span id="n">
+            <h2>40</h2>
+            <p>seconds</p>
+
+         </span>
+
+      </div>
+   </div>
+   <h1 style="text-align: center;"> OUR EVENTS</h1>
+   <div style="display: inline-block">
+      <div class="o">
+         <img
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/30/54/b2/bidri-ambience.jpg?w=600&h=-1&s=1"
+            width="300px"><h1>Morning gathering</h1>
+            <h4>monday 10am,friday</h4>
+            <h4>mefhil</h4><h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quam praesentium optio aliquid modi, fugit consequatur, id enim similique ex asperiores officiis aliquam perferendis exercitationem nobis molestias saepe necessitatibus sint.
+            Placeat quasi praesentium sapiente id voluptatem rerum corporis, eligendi asperiores. Assumenda quod qui dolorem labore enim rem saepe accusamus velit ut quos fugiat id cumque fugit vero, maxime sit aspernatur!</h6>
+      </div>
+      <div class="p">
+
+         <img
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/30/54/b2/bidri-ambience.jpg?w=600&h=-1&s=1"
+            width="300px"><h1>Spirit and truth</h1>
+            <h4>monday 10am,friday</h4>
+            <h4>mefhil</h4><h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rem, voluptatibus nam quos laborum ullam maiores aliquid! Aliquid consectetur nihil error impedit fugiat ea illum sed aut, autem facilis cupiditate.
+            Laudantium adipisci maxime porro quasi velit sequi omnis neque, praesentium optio, aperiam cupiditate, tempora expedita commodi non ut. Modi, aliquid provident assumenda tenetur voluptates temporibus nisi facere dolorum iste consectetur?</h6>
+      </div>
+      <div class="q">
+
+         <img
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/30/54/b2/bidri-ambience.jpg?w=600&h=-1&s=1"
+            width="300px"><h1>Sunday school</h1>
+            <h4>monday 10am,friday</h4>
+            <h4>mefhil</h4><h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nesciunt soluta vel rem! Quos quo autem temporibus. Vero nihil suscipit, provident molestias deserunt tempore laudantium, ex in harum delectus earum!
+            Exercitationem nesciunt consequatur ratione, eveniet maxime repellat dolorum quo aliquam omnis, voluptas deleniti enim minus obcaecati expedita! Quod, ducimus. Esse assumenda quo aliquid porro, hic vel est distinctio dolore doloribus.</h6>
+      </div>
+   </div>
+
+
+
+
+</body>
+
+</html>
